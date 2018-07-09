@@ -1,0 +1,32 @@
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    max-height: 56px;
+    background-color: #abcdef;
+    z-index: 1;
+}
+.footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 25px;
+    background-color: #abcdef;
+}
+.content {
+    position: fixed;
+    top: 53px;
+    bottom: 25px;
+    left: 0;
+    right: 0;
+    overflow: auto;
+}
+
+.fill-content{
+    top: 0px;
+    bottom: 0px;
+}
+

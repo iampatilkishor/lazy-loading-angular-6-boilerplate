@@ -1,0 +1,20 @@
+  <!--
+ Created on Mon Jul 09 2018
+ Kishor Patil
+ Copyright (c) 2018 Your Company
+-->
+<div *ngIf="isLogin">
+  <div class="header">
+      <app-header> </app-header>
+  </div>
+  <div class="content">
+      <router-outlet></router-outlet>
+  </div>
+  <div class="footer">
+      <app-footer> </app-footer>
+  </div>
+</div>
+<div *ngIf="!isLogin" class="content fill-content">
+
+<router-outlet></router-outlet>
+</div>

@@ -1,0 +1,20 @@
+/**
+ * @author Kishor Patil
+ * @email kishor.patil0589@gmail.com
+ * @create date 2018-07-09 12:54:24
+ * @modify date 2018-07-09 12:54:24
+ * @desc [description]
+*/
+.spacing {
+  position: absolute;
+  background: lightseagreen;
+  height: 88%;
+  width: 100%;
+  top: 52px;
+  }
+  
+  .filler {
+    background-color: rgba(32, 32, 32, 0.85);
+    height: 100%;
+  }
+  
